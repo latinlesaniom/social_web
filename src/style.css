@@ -1,0 +1,70 @@
+:root {
+    --first: #F2C744;
+    --second: #F2E0BD;
+    --third: #A6702E;
+    --fourth: #472c23;
+    --fivethy: #0D0D0D;
+    --white: #fff;
+    --fira-family: Fira Code, sans-serif;
+    --veriox-family: Veriox, sans-serif;
+    --helvetica: Helvetica, sans-serif;
+    --v-space: 6rem;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.paige {
+
+    width: 100%;
+    margin: 0 auto;
+    column-gap: 30px;
+    row-gap: 30px;
+
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--fivethy);
+    color: var(--white);
+    font-family: var(--helvetica)
+}
+
+section {
+    position: relative;
+}
+
+
+.end {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: flex-end;
+    top: 86%;
+}
+
+.footer-content {
+    font-family: var(--helvetica);
+    font-size: 24px;
+}
+
+.footer-content a {
+    color: #c8c8c8d9;
+}
